@@ -1,0 +1,2 @@
+model_checkpoint_path: "chessboard_classifier_model"
+all_model_checkpoint_paths: "chessboard_classifier_model"
