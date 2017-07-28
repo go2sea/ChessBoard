@@ -14,7 +14,7 @@ class ChessBoardClassifier:
         self.ch = 4
         self.label_dim = 13  # rnbqkp # RNBQKP
         self.label_value_dict = {'r': 0, 'n': 1, 'b': 2, 'q': 3, 'k': 4, 'p': 5, '#': 6,
-                                'R': 7, 'N': 8, 'B': 9, 'Q': 10, 'K': 11, 'P': 12}
+                                 'R': 7, 'N': 8, 'B': 9, 'Q': 10, 'K': 11, 'P': 12}
         self.model_path = './model/chessboard_classifier_model'
         self.batch_size = 64
         self.epoch = 1000
